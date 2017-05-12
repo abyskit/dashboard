@@ -1,0 +1,67 @@
+.panel
+  background-color #fff
+  border-radius 4px
+
+  &.panel--bordered
+    border 1px solid #dddddd
+
+  .panel__container
+    width calc(100% - 40px)
+    margin 0 auto
+
+    .panel__header
+      padding 15px 0
+
+    .panel__footer
+      padding 15px 0
+
+    .panel__content
+      padding 15px 0
+
+  .panel__header
+    border-bottom 1px solid #dddddd
+    padding 15px
+    box-sizing border-box
+
+  .panel__footer
+    border-top 1px solid #dddddd
+    padding 15px
+    box-sizing border-box
+
+  .panel__content
+    padding 15px
+    box-sizing border-box
+
+    &.panel__content--unboxed
+      padding 0
+
+  .panel__row + .panel__row
+    margin-top 15px
+
+  .panel__row--inline
+    display flex
+    flex-wrap wrap
+    align-items center
+    > div
+      box-sizing border-box
+      flex: 1;
+
+      &:not(:first-child)
+        border 1px solid rgba(0,0,0,.07)
+        border-radius 4px
+        padding 15px
+
+      &:first-child
+        flex 0;
+        flex-basis 180px
+
+      + div
+        margin-left 15px
+
+  .panel__box
+    border-top 1px solid #dddddd
+    padding 15px
+    box-sizing border-box
+
+  .panel__icon-text
+    margin 0

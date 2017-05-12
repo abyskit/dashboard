@@ -1,0 +1,14 @@
+{
+    "name": "abyskit/booking-dashboard",
+    "description": "Dashboard for booking service app",
+    "authors": [
+        {
+            "name": "Sharipkanov Yertay",
+            "email": "abyskit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "intervention/image": "^2.3"
+    }
+}

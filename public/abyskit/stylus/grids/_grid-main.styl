@@ -1,0 +1,16 @@
+.grid-main
+  &::after
+    content ''
+    display block
+    clear both
+
+  .grid-main__item
+    float left
+
+    &:first-child
+      width 250px
+      padding 0 10px
+      box-sizing border-box
+
+    &:last-child
+      width calc(100% - 250px)

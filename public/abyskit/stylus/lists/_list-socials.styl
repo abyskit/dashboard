@@ -1,0 +1,35 @@
+.list-socials
+  margin 0
+  padding 0
+  list-style none
+  font-size 0
+
+  .list-socials__item
+    display inline-block
+    vertical-align middle
+    font-size 14px
+
+    &:not(:last-child)
+      margin-right 5px
+
+  .list-socials__link
+    font-size 14px
+    width 30px
+    height 30px
+    overflow hidden
+    display block
+    text-align center
+    color #fff
+    background #9ea7b3
+    text-decoration none
+    border-radius 50%
+
+    &::before
+      height 100%
+      content ''
+      display inline-block
+      vertical-align middle
+
+  .list-socials__icon
+    vertical-align middle
+    color #fff

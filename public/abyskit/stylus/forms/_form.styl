@@ -1,0 +1,96 @@
+.form
+  margin 0
+  padding 0
+  display block
+  width 100%
+
+  .form__control
+    display block
+
+    &.form__control--border-top
+      padding-top 10px
+      border-top 1px solid rgba(0,0,0,0.07)
+
+    &.form__control--border-bottom
+      padding-bottom 10px
+      border-bottom 1px solid rgba(0,0,0,0.07)
+
+    &.form__control--inline
+      display flex
+      align-items center
+      justify-content space-between
+
+      .form__label
+        margin-right 15px
+
+  .form__control + .form__control
+    margin 10px 0 0 0
+
+  .form__input,
+  .form__select,
+  .form__textarea
+    font-family 'PT Sans Regular', sans-serif
+    display block
+    width 100%
+    margin 0
+    background-color #fff
+    color #9EA7B3
+    font-size 13px
+    border 1px solid #ccc
+    outline none
+    box-sizing border-box
+    border-radius 4px
+    line-height 1
+
+    &:focus
+      border-color #45B6B0
+
+  .form__file
+    font-family 'PT Sans Regular', sans-serif
+
+  .form__input,
+  .form__select
+    height 30px
+    padding 0 10px
+
+  .form__textarea
+    min-height 150px
+    padding 10px
+
+  .form__label
+    margin-bottom 5px
+    display block
+
+  .form__link-remove
+    margin-left 10px
+    text-decoration: none
+    color rgba(0,0,0,.2)
+
+    &:hover
+      color rgba(0,0,0,.3)
+
+
+  &.form--inline
+    font-size 0
+
+    .form__control
+      font-size initial
+      display inline-block
+      vertical-align top
+
+    .form__control + .form__control
+      margin 0 0 0 10px
+
+  &.form--flex
+    display flex
+    flex-direction column
+
+    > .form__control
+
+      &:nth-last-child(2)
+        margin-bottom 10px
+
+      &:last-child
+        margin-top auto
+        border-top 1px solid rgba(0,0,0,0.07)
+        padding-top 10px

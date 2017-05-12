@@ -1,0 +1,40 @@
+.pagination
+  list-style none
+  margin 0
+  padding 0
+  display inline-block
+
+  &::after
+    display block
+    content ''
+    clear both
+
+  > li
+    float left
+    border: 1px solid #ccc
+
+    &:not(:first-child)
+      border-left 0
+
+    &:first-child
+      border-radius 4px 0 0 4px
+
+    &:last-child
+      border-radius 0 4px 4px 0
+
+    > span, a
+      display block
+      padding: 4px 12px
+      line-height 20px
+      text-decoration: none
+
+    > a
+      color #5bc0de
+
+    > a:hover
+      background #eee
+
+
+    &.active > span
+      background #eee
+
