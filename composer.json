@@ -7,7 +7,7 @@
             "email": "abyskit@gmail.com"
         }
     ],
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "require": {
         "intervention/image": "^2.3"
     }
