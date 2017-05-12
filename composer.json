@@ -1,5 +1,5 @@
 {
-    "name": "abyskit/booking-dashboard",
+    "name": "abyskit/dashboard",
     "description": "Dashboard for booking service app",
     "authors": [
         {
@@ -7,7 +7,7 @@
             "email": "abyskit@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "require": {
         "intervention/image": "^2.3"
     }
