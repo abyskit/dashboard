@@ -1,6 +1,7 @@
 {
     "name": "abyskit/dashboard",
     "description": "Dashboard for booking service app",
+    "version": "0.0.14",
     "authors": [
         {
             "name": "Sharipkanov Yertay",
